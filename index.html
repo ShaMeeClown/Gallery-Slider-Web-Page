@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fbb40b4da9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <p>Gallery</p>
+        <a class="navbar-menu" href="#">Home</a>
+        <a class="navbar-menu" href="#">About Us</a>
+        <a class="navbar-menu" href="#">Contact</a>
+    </div>
+
+    <img id="logo" src="images/gallery-icon.png" alt="">
+
+    <div class="carousel-container">
+        <i class="fa-solid fa-arrow-left" id="prevBtn"></i>
+        <i class="fa-solid fa-arrow-right" id="nextBtn"></i>       
+        <div class="carousel-slide">           
+            <img src="images/carousel4.jpg" id="lastClone" alt="">
+            <img src="images/carousel1.jpg" alt="">
+            <img src="images/carousel2.jpg" alt="">
+            <img src="images/carousel3.jpg" alt="">
+            <img src="images/carousel4.jpg" alt=""> 
+            <img src="images/carousel5.jpg" alt="">
+            <img src="images/carousel1.jpg" id="firstClone" alt="">           
+        </div>
+    </div>
+
+    
+    <button id="resetBtn">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
